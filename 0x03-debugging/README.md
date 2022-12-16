@@ -1,0 +1,3 @@
+- This program converts a date to the day of year and determines how many days are left in the year.
+- This program prints the largest of three integers.
+- the part of the code that is causing the output to go into an infinite loop.
