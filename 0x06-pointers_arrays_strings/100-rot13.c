@@ -13,7 +13,7 @@ char *rot13(char *str)
 
 	while (str[i] != '\0')
 	{
-		str[i] = transform_2(str[i]);
+		str[i] =  transform_2(str[i]);
 		i++;
 	}
 	return (str);
@@ -26,14 +26,14 @@ char *rot13(char *str)
  * Return: the encoded char
  */
 
-char transform_2(char x)
+char  transform_2(char x)
 {
-        char one[52] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
-        char two[52] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
-        int i = 0;
-        char replacemenent = x;
-
-        while (i < 52)	
+	char one[52] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	char two[52] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
+	int i = 0;
+	char replacemenent = x;
+	
+	while (i < 52)
 	{
 		if (x == one[i])
 		{
