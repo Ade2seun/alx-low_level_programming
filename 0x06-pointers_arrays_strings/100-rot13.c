@@ -31,8 +31,8 @@ char  transform_2(char x)
 	char one[52] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	char two[52] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 	int i = 0;
-	char replacemenent = x;
-	
+	char replacement = x;
+
 	while (i < 52)
 	{
 		if (x == one[i])
