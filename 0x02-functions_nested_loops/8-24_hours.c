@@ -16,9 +16,10 @@ void jack_bauer(void)
 	{
 	while (minutes <= 59)
 	{
-	hours_remainder - hours % 10;
+	mins_remainder = minutes % 10;
+	hours_remainder =  hours % 10;
 	_putchar(hours / 10 + '0');
-	_putchar(hours_remainder + '0')
+	_putchar(hours_remainder + '0');
 	_putchar(':');
 	_putchar(minutes / 10 + '0');
 	_putchar(mins_remainder + '0');
@@ -27,5 +28,5 @@ void jack_bauer(void)
 	}
 	hours++;
 	minutes = 0;
-	}
+}
 }
