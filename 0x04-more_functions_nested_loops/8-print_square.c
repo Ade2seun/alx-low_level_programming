@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
-*print_square - prints squares
+*print_square - prints square
 *@size: parameter
 *Return: returns nothing
 */
