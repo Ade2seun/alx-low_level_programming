@@ -1,0 +1,11 @@
+my readme.md in first introduction to pointer arrays in this project task :-
+- A function that takes a pointer to an int as parameter and updates the value it points to to 98.
+- A function that swaps the values of two integers.
+- A function that returns the length of a string.
+- A function that prints a string, followed by a new line.
+- A function that prints a string, in reverse.
+- A function that reverses a string.
+- A function that prints every other character of a string, starting with the first character.
+- A function that prints half of a string. 
+- A function that prints n elements of an array of integers.
+- A function that convert a string to an integer.
